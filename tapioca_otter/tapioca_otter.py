@@ -38,10 +38,8 @@ class OtterClientAdapter(JSONAdapterMixin, TapiocaAdapter):
         query['page'][0] = page
         next_page_url = parsed._replace(query=urlencode(query, True)).geturl()
 
-        return {'url': next_page_url}
-
-
-
+        if next_page_url:
+            return {'url': next_page_url}
 
 
 Otter = generate_wrapper_from_adapter(OtterClientAdapter)
