@@ -10,7 +10,7 @@ pip install tapioca-otter
 from tapioca_otter import Otter
 
 
-api = Otter()
+api = Otter(apikey = 'APIKEY')
 
 ```
 
