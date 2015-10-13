@@ -2,7 +2,7 @@
 
 __author__ = 'Jithesh E J'
 __email__ = 'mail@jithesh.net'
-__version__ = '0.2'
+__version__ = '0.2.1'
 
 
 from tapioca_otter import Otter
