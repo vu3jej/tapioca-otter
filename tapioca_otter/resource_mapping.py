@@ -2,51 +2,51 @@
 
 RESOURCE_MAPPING = {
     'authorinfo': {
-        'resource': 'authorinfo.json?url={url}',
+        'resource': 'authorinfo.json',
         'docs': 'https://code.google.com/p/otterapi/wiki/Resources#/authorinfo'
     },
     'experts': {
-        'resource': 'experts.json?q={q}',
+        'resource': 'experts.json',
         'docs': 'https://code.google.com/p/otterapi/wiki/Resources#/experts'
     },
     'linkposts': {
-        'resource': 'linkposts.json?url={url}',
+        'resource': 'linkposts.json',
         'docs': 'https://code.google.com/p/otterapi/wiki/Resources#/linkposts'
     },
     'linkpostcount': {
-        'resource': 'linkpostcount.json?url={url}',
+        'resource': 'linkpostcount.json',
         'docs': 'https://code.google.com/p/otterapi/wiki/Resources#/linkpostcount'
     },
     'search': {
-        'resource': 'search.json?q={q}',
+        'resource': 'search.json',
         'docs': 'https://code.google.com/p/otterapi/wiki/Resources#/search'
     },
     'searchcount': {
-        'resource': 'searchcount.json?q={q}',
+        'resource': 'searchcount.json',
         'docs': 'https://code.google.com/p/otterapi/wiki/Resources#/searchcount'
     },
     'searchhistogram': {
-        'resource': 'searchhistogram.json?q={q}',
+        'resource': 'searchhistogram.json',
         'docs': 'https://code.google.com/p/otterapi/wiki/Resources#/searchhistogram'
     },
     'searchdate': {
-        'resource': 'stats.json?url={url}',
+        'resource': 'stats.json',
         'docs': 'https://code.google.com/p/otterapi/wiki/Resources#/searchdate'
     },
     'stats': {
-        'resource': 'stats.json?url={url}',
+        'resource': 'stats.json',
         'docs': 'https://code.google.com/p/otterapi/wiki/Resources#/stats'
     },
     'top': {
-        'resource': 'top.json?thresh={thresh}',
+        'resource': 'top.json',
         'docs': 'https://code.google.com/p/otterapi/wiki/Resources#/top'
     },
     'trackbacks': {
-        'resource': 'trackbacks.json?url={url}',
+        'resource': 'trackbacks.json',
         'docs': 'https://code.google.com/p/otterapi/wiki/Resources#/trackbacks'
     },
     'urlinfo': {
-        'resource': 'urlinfo.json?url={url}',
+        'resource': 'urlinfo.json',
         'docs': 'https://code.google.com/p/otterapi/wiki/Resources#/urlinfo'
     },
 }
